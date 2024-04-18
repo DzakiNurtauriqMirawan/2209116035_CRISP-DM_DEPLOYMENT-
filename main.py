@@ -19,15 +19,15 @@ def main():
         st.title("Analisis Data Pembelian Pelanggan")
         st.subheader("Pengaruh Umur, Gender, dan Pekerjaan terhadap Pembelian Pelanggan")
         st.write("Analisis ini bertujuan untuk mengeksplorasi hubungan antara umur, gender, dan pekerjaan terhadap pola pembelian pelanggan. Dengan memahami faktor-faktor ini, perusahaan dapat mengoptimalkan strategi pemasaran dan penjualan untuk meningkatkan kepuasan pelanggan dan hasil penjualan.")
-        st.image("image/black friday.jpeg", use_column_width=True)
+        
         
         st.subheader("Pengaruh Pendidikan dan Status Pernikahan terhadap Pembelian Pelanggan")
         st.write("Analisis akan menelusuri bagaimana pendidikan dan status pernikahan memengaruhi pola pembelian pelanggan. Informasi ini dapat digunakan untuk menyusun strategi pemasaran yang lebih terfokus dan menarik bagi segmen pelanggan tertentu.")
-        st.image("image/black friday2.jpeg", use_column_width=True)
+        
 
         st.subheader("Analisis Geografis Pembelian Pelanggan")
         st.write("Analisis akan memperlihatkan pola pembelian pelanggan berdasarkan lokasi geografis. Hal ini dapat membantu perusahaan untuk menyesuaikan strategi pemasaran dan distribusi berdasarkan preferensi konsumen di berbagai daerah.")
-        st.image("image/black friday3.jpg", use_column_width=True)
+        
 
     elif menu == "Distribusi":
         st.title("Data Distribusi")
