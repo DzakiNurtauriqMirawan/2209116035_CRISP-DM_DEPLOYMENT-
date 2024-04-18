@@ -16,6 +16,7 @@ def main():
     menu = st.sidebar.selectbox("", ["Beranda", "Distribusi", "Hubungan", "Perbandingan dan Komposisi", "Predict"])
     
     if menu == "Beranda":
+        st.image("https://kledo.com/blog/wp-content/uploads/2020/07/survei-kepuasan-pelanggan-1024x660.jpeg")
         st.title("Analisis Data Pembelian Pelanggan")
         st.subheader("Pengaruh Umur, Gender, dan Pekerjaan terhadap Pembelian Pelanggan")
         st.write("Analisis ini bertujuan untuk mengeksplorasi hubungan antara umur, gender, dan pekerjaan terhadap pola pembelian pelanggan. Dengan memahami faktor-faktor ini, perusahaan dapat mengoptimalkan strategi pemasaran dan penjualan untuk meningkatkan kepuasan pelanggan dan hasil penjualan.")
